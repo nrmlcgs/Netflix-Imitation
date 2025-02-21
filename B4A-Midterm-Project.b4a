@@ -1,0 +1,206 @@
+﻿Build1=Default,b4a.example
+File1=0.jpg
+File10=1667008874374.jpg
+File11=1667008874385.jpg
+File12=1667008874397.jpg
+File13=1667008874408.jpg
+File14=1667008874418.jpg
+File15=1667010894934.jpg
+File16=1667010894952.jpg
+File17=1667010894964.jpg
+File18=1667022615426.jpg
+File19=1667022615524.jpg
+File2=1.jpg
+File20=2.jpg
+File21=3.jpg
+File22=306022612_2140760239458841_330488362830722376_n.jpg
+File23=312390352_3308157862733699_6510980911475675007_n.jpg
+File24=313027754_1314624399303318_7371747439762498630_n.jpg
+File25=313521609_493046949532523_354362917369389894_n (1).jpg
+File26=313521609_493046949532523_354362917369389894_n.jpg
+File27=313578633_554200613380838_7816668599123296688_n.jpg
+File28=313929348_672364391073698_9222130303173639277_n.jpg
+File29=4.jpg
+File3=1111.jpg
+File30=5.jpg
+File31=A.jpg
+File32=allquihwjc.jpg
+File33=B.jpg
+File34=blueicon.png
+File35=C.jpg
+File36=CategoriesLay.bal
+File37=D.jpg
+File38=download.jpg
+File39=DownloadLay.bal
+File4=12.jpg
+File40=E.jpg
+File41=FastLay.bal
+File42=front.jpg
+File43=GamesLay.bal
+File44=green.png
+File45=HomeLay.bal
+File46=HsvContent.bal
+File47=HsvHomeContent.bal
+File48=HsvNew.bal
+File49=images.jpg
+File5=1222.jpg
+File50=Kathniel.jpg
+File51=kids.png
+File52=logonetflix.png
+File53=NetflixLayout.bal
+File54=NewLay.bal
+File55=nLOGO.png
+File56=pink.png
+File57=ProfilesLay.bal
+File58=ReadyLay.bal
+File59=SclCategories.bal
+File6=123.jpg
+File60=SclFast.bal
+File61=sclNew.bal
+File62=SclSearch.bal
+File63=ScvGamesContent.bal
+File64=SearchLay.bal
+File65=SignInLay.bal
+File66=StartLayout.bal
+File67=ton.png
+File68=UserLay.bal
+File69=v.jpg
+File7=1234.jpg
+File70=x.jpg
+File71=z.jpg
+File8=12345.jpg
+File9=1667008874361.jpg
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup25=Default Group
+FileGroup26=Default Group
+FileGroup27=Default Group
+FileGroup28=Default Group
+FileGroup29=Default Group
+FileGroup3=Default Group
+FileGroup30=Default Group
+FileGroup31=Default Group
+FileGroup32=Default Group
+FileGroup33=Default Group
+FileGroup34=Default Group
+FileGroup35=Default Group
+FileGroup36=Default Group
+FileGroup37=Default Group
+FileGroup38=Default Group
+FileGroup39=Default Group
+FileGroup4=Default Group
+FileGroup40=Default Group
+FileGroup41=Default Group
+FileGroup42=Default Group
+FileGroup43=Default Group
+FileGroup44=Default Group
+FileGroup45=Default Group
+FileGroup46=Default Group
+FileGroup47=Default Group
+FileGroup48=Default Group
+FileGroup49=Default Group
+FileGroup5=Default Group
+FileGroup50=Default Group
+FileGroup51=Default Group
+FileGroup52=Default Group
+FileGroup53=Default Group
+FileGroup54=Default Group
+FileGroup55=Default Group
+FileGroup56=Default Group
+FileGroup57=Default Group
+FileGroup58=Default Group
+FileGroup59=Default Group
+FileGroup6=Default Group
+FileGroup60=Default Group
+FileGroup61=Default Group
+FileGroup62=Default Group
+FileGroup63=Default Group
+FileGroup64=Default Group
+FileGroup65=Default Group
+FileGroup66=Default Group
+FileGroup67=Default Group
+FileGroup68=Default Group
+FileGroup69=Default Group
+FileGroup7=Default Group
+FileGroup70=Default Group
+FileGroup71=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=core
+Library2=xui
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="14" android:targetSdkVersion="30"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~
+Module1=CategoriesMdl
+Module10=SignInMdl
+Module11=Starter
+Module12=StartMdl
+Module13=UserMdl
+Module2=DownloadMdl
+Module3=FastMdl
+Module4=GamesMdl
+Module5=HomeMdl
+Module6=NewMdl
+Module7=ProfilesMdl
+Module8=ReadyMdl
+Module9=SearchMdl
+NumberOfFiles=71
+NumberOfLibraries=2
+NumberOfModules=13
+Version=11.8
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: B4A Example
+	#VersionCode: 1
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: unspecified
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: True
+	#IncludeTitle: False
+#End Region
+
+Sub Process_Globals
+	'These global variables will be declared once when the application starts.
+	'These variables can be accessed from all modules.
+	Private xui As XUI
+End Sub
+
+Sub Globals
+	'These global variables will be redeclared each time the activity is created.
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Activity.LoadLayout("NetflixLayout")
+End Sub
+
+Sub Activity_Resume
+
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+
+End Sub
+
+
+
+Private Sub Activity_Click
+	StartActivity(StartMdl)
+End Sub
